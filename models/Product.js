@@ -34,12 +34,12 @@ Product.init(
       type: DataTypes.INTEGER,
       references: {
         model: 'category',
-        key: 'id',
+        key: 'id'
+      },
         onDelete: 'CASCADE'
       }
-    }
-
-  },
+    },
+    
   {
     sequelize,
     timestamps: false,
